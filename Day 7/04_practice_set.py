@@ -1,4 +1,4 @@
-# '''write a program to find the sum first natural numbers using while loop'''
+'''write a program to find the sum first natural numbers using while loop'''
 n=int(input("enter your number:"))
 i=1
 sum=0
