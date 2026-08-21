@@ -1,0 +1,33 @@
+str='''hassaan is a good boy but ali is not a good person.he is bad boy.bad habites
+import random
+computer=random.randint(-1,1)
+you=(input("Enter your number:")).lower()
+choice={"s":-1,
+        "w":0,
+        "g":1}
+reversedict={-1:"Snake",
+             0:"water",
+             1:"gun"}
+yourdict=choice[you]
+print(f"your choise:{reversedict[yourdict]}")
+print(f"Computer choice:{reversedict[computer]}")
+if yourdict==computer:
+    print("Draw!")
+elif yourdict==-1 and computer==0:
+    print("You win!")
+elif yourdict==0 and computer==1:
+    print("you win!")
+elif yourdict==1 and computer==-1:
+    print("you win!")
+else:
+    print("Computer win!")     '''
+f=open("my_file.txt","w")
+f.write(str)
+f.close()
+
+
+f=open("file.txt","r")
+data=f.read()
+print(data)
+f.close
+
